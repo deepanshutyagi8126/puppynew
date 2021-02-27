@@ -1,3 +1,12 @@
+$(document).on('click','.hamburger',function(){
+  $(this).addClass('active');
+  $('.headerRight').animate({'left':'0'});
+  });
+  $(document).on('click','.hamburger.active',function(){
+    $(this).removeClass('active');
+    $('.headerRight').animate({'left':'-250px'});
+    });
+
 $(window).scroll(function () {
   if ($(window).scrollTop() >= 1) {
       $('.headerFirst').addClass('fixed_header');
