@@ -1471,5 +1471,8 @@ textarea{
 width: 100%;
 transition: 0.35s ease-in-out;
 }
+.hamburger{
+	display: none;
+}
 /* index css code :end */
 
